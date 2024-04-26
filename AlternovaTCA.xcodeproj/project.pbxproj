@@ -17,6 +17,13 @@
 		8840E93D2BDC02CD00323663 /* AlternovaTCAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840E93C2BDC02CD00323663 /* AlternovaTCAUITests.swift */; };
 		8840E93F2BDC02CD00323663 /* AlternovaTCAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840E93E2BDC02CD00323663 /* AlternovaTCAUITestsLaunchTests.swift */; };
 		8840E94D2BDC0FB200323663 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 8840E94C2BDC0FB200323663 /* ComposableArchitecture */; };
+		8840E9572BDC176100323663 /* NotificationsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840E9562BDC176100323663 /* NotificationsManager.swift */; };
+		8840E9592BDC17B100323663 /* DevelopmentEnviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840E9582BDC17B100323663 /* DevelopmentEnviroment.swift */; };
+		8840E95B2BDC184300323663 /* ProductiontEnviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840E95A2BDC184300323663 /* ProductiontEnviroment.swift */; };
+		8840E95D2BDC186D00323663 /* TestingEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840E95C2BDC186D00323663 /* TestingEnvironment.swift */; };
+		8840E95F2BDC2E5B00323663 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840E95E2BDC2E5B00323663 /* Action.swift */; };
+		8840E9612BDC31F100323663 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840E9602BDC31F000323663 /* Home.swift */; };
+		8840E9632BDC322800323663 /* MedicamentosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840E9622BDC322800323663 /* MedicamentosViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,13 @@
 		8840E9382BDC02CD00323663 /* AlternovaTCAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlternovaTCAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8840E93C2BDC02CD00323663 /* AlternovaTCAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlternovaTCAUITests.swift; sourceTree = "<group>"; };
 		8840E93E2BDC02CD00323663 /* AlternovaTCAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlternovaTCAUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8840E9562BDC176100323663 /* NotificationsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsManager.swift; sourceTree = "<group>"; };
+		8840E9582BDC17B100323663 /* DevelopmentEnviroment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevelopmentEnviroment.swift; sourceTree = "<group>"; };
+		8840E95A2BDC184300323663 /* ProductiontEnviroment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductiontEnviroment.swift; sourceTree = "<group>"; };
+		8840E95C2BDC186D00323663 /* TestingEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingEnvironment.swift; sourceTree = "<group>"; };
+		8840E95E2BDC2E5B00323663 /* Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
+		8840E9602BDC31F000323663 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		8840E9622BDC322800323663 /* MedicamentosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicamentosViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,11 +114,17 @@
 		8840E91B2BDC02C900323663 /* AlternovaTCA */ = {
 			isa = PBXGroup;
 			children = (
+				8840E9552BDC152F00323663 /* Utilities */,
+				8840E9542BDC152400323663 /* Enviroments */,
+				8840E9532BDC151B00323663 /* Actions */,
+				8840E9522BDC150A00323663 /* Reducers */,
+				8840E9512BDC14F900323663 /* ViewModels */,
+				8840E9502BDC14EC00323663 /* Views */,
+				8840E94E2BDC14C600323663 /* Models */,
 				8840E91C2BDC02C900323663 /* AlternovaTCAApp.swift */,
 				8840E91E2BDC02C900323663 /* ContentView.swift */,
 				8840E9202BDC02CD00323663 /* Assets.xcassets */,
 				8840E9252BDC02CD00323663 /* Persistence.swift */,
-				8840E9272BDC02CD00323663 /* AlternovaTCA.xcdatamodeld */,
 				8840E9222BDC02CD00323663 /* Preview Content */,
 			);
 			path = AlternovaTCA;
@@ -133,6 +153,63 @@
 				8840E93E2BDC02CD00323663 /* AlternovaTCAUITestsLaunchTests.swift */,
 			);
 			path = AlternovaTCAUITests;
+			sourceTree = "<group>";
+		};
+		8840E94E2BDC14C600323663 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8840E9272BDC02CD00323663 /* AlternovaTCA.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8840E9502BDC14EC00323663 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8840E9602BDC31F000323663 /* Home.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8840E9512BDC14F900323663 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8840E9622BDC322800323663 /* MedicamentosViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8840E9522BDC150A00323663 /* Reducers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Reducers;
+			sourceTree = "<group>";
+		};
+		8840E9532BDC151B00323663 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				8840E95E2BDC2E5B00323663 /* Action.swift */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		8840E9542BDC152400323663 /* Enviroments */ = {
+			isa = PBXGroup;
+			children = (
+				8840E9562BDC176100323663 /* NotificationsManager.swift */,
+				8840E9582BDC17B100323663 /* DevelopmentEnviroment.swift */,
+				8840E95A2BDC184300323663 /* ProductiontEnviroment.swift */,
+				8840E95C2BDC186D00323663 /* TestingEnvironment.swift */,
+			);
+			path = Enviroments;
+			sourceTree = "<group>";
+		};
+		8840E9552BDC152F00323663 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,9 +349,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				8840E9262BDC02CD00323663 /* Persistence.swift in Sources */,
+				8840E95F2BDC2E5B00323663 /* Action.swift in Sources */,
+				8840E9612BDC31F100323663 /* Home.swift in Sources */,
 				8840E9292BDC02CD00323663 /* AlternovaTCA.xcdatamodeld in Sources */,
+				8840E9592BDC17B100323663 /* DevelopmentEnviroment.swift in Sources */,
 				8840E91F2BDC02C900323663 /* ContentView.swift in Sources */,
+				8840E9572BDC176100323663 /* NotificationsManager.swift in Sources */,
+				8840E95B2BDC184300323663 /* ProductiontEnviroment.swift in Sources */,
+				8840E95D2BDC186D00323663 /* TestingEnvironment.swift in Sources */,
 				8840E91D2BDC02C900323663 /* AlternovaTCAApp.swift in Sources */,
+				8840E9632BDC322800323663 /* MedicamentosViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
