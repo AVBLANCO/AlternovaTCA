@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8840E91D2BDC02C900323663 /* AlternovaTCAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840E91C2BDC02C900323663 /* AlternovaTCAApp.swift */; };
+		8840E91F2BDC02C900323663 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840E91E2BDC02C900323663 /* ContentView.swift */; };
+		8840E9212BDC02CD00323663 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8840E9202BDC02CD00323663 /* Assets.xcassets */; };
+		8840E9242BDC02CD00323663 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8840E9232BDC02CD00323663 /* Preview Assets.xcassets */; };
+		8840E9262BDC02CD00323663 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840E9252BDC02CD00323663 /* Persistence.swift */; };
+		8840E9292BDC02CD00323663 /* AlternovaTCA.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8840E9272BDC02CD00323663 /* AlternovaTCA.xcdatamodeld */; };
+		8840E9332BDC02CD00323663 /* AlternovaTCATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840E9322BDC02CD00323663 /* AlternovaTCATests.swift */; };
+		8840E93D2BDC02CD00323663 /* AlternovaTCAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840E93C2BDC02CD00323663 /* AlternovaTCAUITests.swift */; };
+		8840E93F2BDC02CD00323663 /* AlternovaTCAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840E93E2BDC02CD00323663 /* AlternovaTCAUITestsLaunchTests.swift */; };
+		8840E94D2BDC0FB200323663 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 8840E94C2BDC0FB200323663 /* ComposableArchitecture */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8840E92F2BDC02CD00323663 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8840E9112BDC02C900323663 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8840E9182BDC02C900323663;
+			remoteInfo = AlternovaTCA;
+		};
+		8840E9392BDC02CD00323663 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8840E9112BDC02C900323663 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8840E9182BDC02C900323663;
+			remoteInfo = AlternovaTCA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8840E9192BDC02C900323663 /* AlternovaTCA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlternovaTCA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8840E91C2BDC02C900323663 /* AlternovaTCAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlternovaTCAApp.swift; sourceTree = "<group>"; };
+		8840E91E2BDC02C900323663 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8840E9202BDC02CD00323663 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8840E9232BDC02CD00323663 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8840E9252BDC02CD00323663 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		8840E9282BDC02CD00323663 /* AlternovaTCA.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AlternovaTCA.xcdatamodel; sourceTree = "<group>"; };
+		8840E92E2BDC02CD00323663 /* AlternovaTCATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlternovaTCATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8840E9322BDC02CD00323663 /* AlternovaTCATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlternovaTCATests.swift; sourceTree = "<group>"; };
+		8840E9382BDC02CD00323663 /* AlternovaTCAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlternovaTCAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8840E93C2BDC02CD00323663 /* AlternovaTCAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlternovaTCAUITests.swift; sourceTree = "<group>"; };
+		8840E93E2BDC02CD00323663 /* AlternovaTCAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlternovaTCAUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8840E9162BDC02C900323663 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8840E94D2BDC0FB200323663 /* ComposableArchitecture in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8840E92B2BDC02CD00323663 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8840E9352BDC02CD00323663 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8840E9102BDC02C900323663 = {
+			isa = PBXGroup;
+			children = (
+				8840E91B2BDC02C900323663 /* AlternovaTCA */,
+				8840E9312BDC02CD00323663 /* AlternovaTCATests */,
+				8840E93B2BDC02CD00323663 /* AlternovaTCAUITests */,
+				8840E91A2BDC02C900323663 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8840E91A2BDC02C900323663 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8840E9192BDC02C900323663 /* AlternovaTCA.app */,
+				8840E92E2BDC02CD00323663 /* AlternovaTCATests.xctest */,
+				8840E9382BDC02CD00323663 /* AlternovaTCAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8840E91B2BDC02C900323663 /* AlternovaTCA */ = {
+			isa = PBXGroup;
+			children = (
+				8840E91C2BDC02C900323663 /* AlternovaTCAApp.swift */,
+				8840E91E2BDC02C900323663 /* ContentView.swift */,
+				8840E9202BDC02CD00323663 /* Assets.xcassets */,
+				8840E9252BDC02CD00323663 /* Persistence.swift */,
+				8840E9272BDC02CD00323663 /* AlternovaTCA.xcdatamodeld */,
+				8840E9222BDC02CD00323663 /* Preview Content */,
+			);
+			path = AlternovaTCA;
+			sourceTree = "<group>";
+		};
+		8840E9222BDC02CD00323663 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8840E9232BDC02CD00323663 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8840E9312BDC02CD00323663 /* AlternovaTCATests */ = {
+			isa = PBXGroup;
+			children = (
+				8840E9322BDC02CD00323663 /* AlternovaTCATests.swift */,
+			);
+			path = AlternovaTCATests;
+			sourceTree = "<group>";
+		};
+		8840E93B2BDC02CD00323663 /* AlternovaTCAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8840E93C2BDC02CD00323663 /* AlternovaTCAUITests.swift */,
+				8840E93E2BDC02CD00323663 /* AlternovaTCAUITestsLaunchTests.swift */,
+			);
+			path = AlternovaTCAUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8840E9182BDC02C900323663 /* AlternovaTCA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8840E9422BDC02CD00323663 /* Build configuration list for PBXNativeTarget "AlternovaTCA" */;
+			buildPhases = (
+				8840E9152BDC02C900323663 /* Sources */,
+				8840E9162BDC02C900323663 /* Frameworks */,
+				8840E9172BDC02C900323663 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlternovaTCA;
+			packageProductDependencies = (
+				8840E94C2BDC0FB200323663 /* ComposableArchitecture */,
+			);
+			productName = AlternovaTCA;
+			productReference = 8840E9192BDC02C900323663 /* AlternovaTCA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8840E92D2BDC02CD00323663 /* AlternovaTCATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8840E9452BDC02CD00323663 /* Build configuration list for PBXNativeTarget "AlternovaTCATests" */;
+			buildPhases = (
+				8840E92A2BDC02CD00323663 /* Sources */,
+				8840E92B2BDC02CD00323663 /* Frameworks */,
+				8840E92C2BDC02CD00323663 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8840E9302BDC02CD00323663 /* PBXTargetDependency */,
+			);
+			name = AlternovaTCATests;
+			productName = AlternovaTCATests;
+			productReference = 8840E92E2BDC02CD00323663 /* AlternovaTCATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8840E9372BDC02CD00323663 /* AlternovaTCAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8840E9482BDC02CD00323663 /* Build configuration list for PBXNativeTarget "AlternovaTCAUITests" */;
+			buildPhases = (
+				8840E9342BDC02CD00323663 /* Sources */,
+				8840E9352BDC02CD00323663 /* Frameworks */,
+				8840E9362BDC02CD00323663 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8840E93A2BDC02CD00323663 /* PBXTargetDependency */,
+			);
+			name = AlternovaTCAUITests;
+			productName = AlternovaTCAUITests;
+			productReference = 8840E9382BDC02CD00323663 /* AlternovaTCAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8840E9112BDC02C900323663 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					8840E9182BDC02C900323663 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					8840E92D2BDC02CD00323663 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 8840E9182BDC02C900323663;
+					};
+					8840E9372BDC02CD00323663 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 8840E9182BDC02C900323663;
+					};
+				};
+			};
+			buildConfigurationList = 8840E9142BDC02C900323663 /* Build configuration list for PBXProject "AlternovaTCA" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8840E9102BDC02C900323663;
+			packageReferences = (
+				8840E94B2BDC0FB200323663 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
+			productRefGroup = 8840E91A2BDC02C900323663 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8840E9182BDC02C900323663 /* AlternovaTCA */,
+				8840E92D2BDC02CD00323663 /* AlternovaTCATests */,
+				8840E9372BDC02CD00323663 /* AlternovaTCAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8840E9172BDC02C900323663 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8840E9242BDC02CD00323663 /* Preview Assets.xcassets in Resources */,
+				8840E9212BDC02CD00323663 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8840E92C2BDC02CD00323663 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8840E9362BDC02CD00323663 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8840E9152BDC02C900323663 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8840E9262BDC02CD00323663 /* Persistence.swift in Sources */,
+				8840E9292BDC02CD00323663 /* AlternovaTCA.xcdatamodeld in Sources */,
+				8840E91F2BDC02C900323663 /* ContentView.swift in Sources */,
+				8840E91D2BDC02C900323663 /* AlternovaTCAApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8840E92A2BDC02CD00323663 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8840E9332BDC02CD00323663 /* AlternovaTCATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8840E9342BDC02CD00323663 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8840E93F2BDC02CD00323663 /* AlternovaTCAUITestsLaunchTests.swift in Sources */,
+				8840E93D2BDC02CD00323663 /* AlternovaTCAUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8840E9302BDC02CD00323663 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8840E9182BDC02C900323663 /* AlternovaTCA */;
+			targetProxy = 8840E92F2BDC02CD00323663 /* PBXContainerItemProxy */;
+		};
+		8840E93A2BDC02CD00323663 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8840E9182BDC02C900323663 /* AlternovaTCA */;
+			targetProxy = 8840E9392BDC02CD00323663 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8840E9402BDC02CD00323663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8840E9412BDC02CD00323663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8840E9432BDC02CD00323663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AlternovaTCA/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = practice.AlternovaTCA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8840E9442BDC02CD00323663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AlternovaTCA/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = practice.AlternovaTCA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8840E9462BDC02CD00323663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = practice.AlternovaTCATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlternovaTCA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AlternovaTCA";
+			};
+			name = Debug;
+		};
+		8840E9472BDC02CD00323663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = practice.AlternovaTCATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlternovaTCA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AlternovaTCA";
+			};
+			name = Release;
+		};
+		8840E9492BDC02CD00323663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = practice.AlternovaTCAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlternovaTCA;
+			};
+			name = Debug;
+		};
+		8840E94A2BDC02CD00323663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = practice.AlternovaTCAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlternovaTCA;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8840E9142BDC02C900323663 /* Build configuration list for PBXProject "AlternovaTCA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8840E9402BDC02CD00323663 /* Debug */,
+				8840E9412BDC02CD00323663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8840E9422BDC02CD00323663 /* Build configuration list for PBXNativeTarget "AlternovaTCA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8840E9432BDC02CD00323663 /* Debug */,
+				8840E9442BDC02CD00323663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8840E9452BDC02CD00323663 /* Build configuration list for PBXNativeTarget "AlternovaTCATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8840E9462BDC02CD00323663 /* Debug */,
+				8840E9472BDC02CD00323663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8840E9482BDC02CD00323663 /* Build configuration list for PBXNativeTarget "AlternovaTCAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8840E9492BDC02CD00323663 /* Debug */,
+				8840E94A2BDC02CD00323663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8840E94B2BDC0FB200323663 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.9.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8840E94C2BDC0FB200323663 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8840E94B2BDC0FB200323663 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		8840E9272BDC02CD00323663 /* AlternovaTCA.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8840E9282BDC02CD00323663 /* AlternovaTCA.xcdatamodel */,
+			);
+			currentVersion = 8840E9282BDC02CD00323663 /* AlternovaTCA.xcdatamodel */;
+			path = AlternovaTCA.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8840E9112BDC02C900323663 /* Project object */;
+}
